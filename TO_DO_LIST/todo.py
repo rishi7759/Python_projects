@@ -18,6 +18,11 @@ while True:
         print("task added succesfully.......")
         print(task)
 
+        f = open("store.txt", "a")
+        f.append(task_1)
+
+    
+    
 
     elif choice == 2:
         if len(task) == 0:
